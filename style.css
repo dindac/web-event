@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("../font/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Cotton Hill";
+  src: url("../font/Cotton Hill.ttf");
+}
+
+body {
+  background: #f9f9f9;
+}
+nav {
+  font-family: "Poppins Regular";
+}
+nav .container .btn {
+  border-radius: 25px;
+  background-color: #014282;
+  font-size: 14px;
+  font-family: "Poppins Regular";
+}
+#home {
+  padding: 2rem;
+}
+#home .container .col-md-5 img {
+  box-shadow: 0px 50px 90px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  width: 457px;
+  height: 451px;
+}
+#home .container .col {
+  padding: 1rem;
+  font-family: "Poppins Regular";
+}
+#home .container .col p {
+  font-family: "Cotton Hill";
+  line-height: 60px;
+  font-size: 40px;
+  color: #000000;
+}
+#event {
+  padding: 2rem;
+}
+#event h3 {
+  font-family: "Cotton Hill";
+  color: #000000;
+  letter-spacing: 0.1em;
+}
+#event h2 {
+  font-family: "Cotton Hill";
+  color: #214a70;
+  font-size: 48px;
+  letter-spacing: 0.1em;
+}
+#event p {
+  font-family: "Poppins Regular";
+  font-size: 14px;
+}
+#event .card {
+  border-radius: 20px;
+}
+#se {
+  padding: 2rem;
+}
+#se .container {
+  min-height: calc(45vh - 25px);
+  background: #082e52;
+  background-blend-mode: multiply;
+  background-size: cover;
+  border-radius: 150px;
+}
+#se .container .row {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#se .text-1 {
+  font-family: "Cotton Hill";
+  color: #ffff;
+  font-size: 48px;
+  line-height: 60px;
+}
+#se .text-2 {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppins Regular";
+  color: #ffff;
+}
+#se .btn {
+  border-radius: 25px;
+  border-color: #ffff;
+  color: #ffff;
+}
+footer {
+  padding: 2rem 15%;
+  font-family: "Poppins Regular";
+  font-size: 14px;
+}
+@media (max-width: 575.98px) {
+  #home .container .col-md-5 img {
+    width: 307px;
+    height: 301px;
+  }
+  #home .container .image1 {
+    width: 94px;
+    height: 40px;
+  }
+  #home .container .image2 {
+    height: 40px;
+  }
+  #home .container .image3 {
+    width: 138px;
+    height: 45px;
+  }
+
+  #se .text-1 {
+    font-size: 20px;
+  }
+  #se .container .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
